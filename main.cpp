@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 void line () {
     std::cout << "*******************************" << std::endl;
@@ -9,7 +10,7 @@ int main () {
     std::string name;
     int mark;
     int total = 0;
-    int average;
+    double average;
 
     std::cout << "Whats the student name?" << std::endl;
     std::cin >> name;
@@ -21,7 +22,7 @@ int main () {
         total = total + mark;
     }
 
-    average = total / 3;
+    average = static_cast<double>(total) / 3;
 
     line();
     std::cout << "Student: " << name << std::endl;
