@@ -30,7 +30,7 @@ int main () {
     std::cout << "Average: " << average << std::endl;
 
     if (average >= 70) {
-        std::cout << "Excellent!" << std::endl;
+        std::cout << "fuck you bitch ass hoe" << std::endl;
     }
     else if (average >= 50) {
         std::cout << "You passed!" << std::endl;
